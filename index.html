@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        h1{
+        color: red;
+        }
+
+        h2{
+        color: red;
+        font-style: italic;
+        }
+
+        li{
+        color: brown;
+        }
+
+        p{
+            color: brown;
+        }
+
+        img{
+            width: 100px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        button{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>This Is First CSS Assignment</h1><hr>
+    <br>
+    <h2>What Is CSS?</h2>
+    <ol>
+        <li>CSS stands for Cascading Style Sheets</li>
+        <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+        <li><strike style="font-weight: bolder;">Css is not neccesary</strike> <span style="background-color: yellow; font-weight: bolder;"> CSS saves a lot of work.</span> It can control the layout of multiple web pages all at once  </li>
+        <li style="font-style: italic; text-decoration: underline;">External stylesheets are stored in CSS files.</li>
+    </ol>
+    <h2>CSS can be added to HTML documents in 3 ways:</h2>
+    <ul style="letter-spacing: 6px; font-family: Georgia, 'Times New Roman', Times, serif;">
+        <li>Inline - by using the style attribute inside HTML elements.</li>
+        <li>Internal - by using a style element in the head section.</li>
+        <li>External - by using a link element to link to an external CSS file.</li>
+        <li>The most common way to add CSS, is to keep the styles in external CSS files. However, <span style="background-color: yellow;">in this tutorial we will use inline and internal styles,</span> because this is easy to demonstrate, and easier for you to try it yourself.</li>
+    </ul>
+    <p>When comparing CSS class vs ID, the difference is that CSS class applies to multiple elements. ID, on the other hand, applies a style to one unique element. ID is also special in that you can use a special URL to link directly to an element and it's used by JavaScript. <br><br>
+    In CSS, selectors are used to target a specific element or range of elements on a web page. Once an element has been targeted, a style pr set of styles can be applied to the element. <br><br>
+    There is a wide range of selectors available. Two of the most commonly used are the class and ID. Both are used to target elements to which a style should be applied. <br><br>
+    <span style="font-style: italic; background-color: yellow;">prepbytes Home</span></p>
+    <br><br>
+    <a href="https://www.prepbytes.com/"><img src="data:image/png;base64,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" alt="" ></a>
+    <a href=""></a>
+    <a href="./iindex1.html"><button>GO FORWARD</button></a>
+</body>
+</html>
